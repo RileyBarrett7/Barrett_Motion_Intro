@@ -9,5 +9,8 @@ const mainTL = gsap.timeline({pasued:true});
 
     mainTL.add(redBoxAnimation())
         .add(blueBoxAnimation())
+        // .addLabel("black")
+        // .addPause()
         .add(blackRectangleAnimation())
+        // .seek("black")
         .play();
