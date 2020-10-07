@@ -1,16 +1,33 @@
-import {gsap} from "gsap";
+// import {gsap} from "gsap";
 
-import {redBoxAnimation} from "./redBox.js"
-import {blueBoxAnimation} from "./blueBox.js"
-import {blackRectangleAnimation} from "./blackRectangle.js"
+import {section1Animation} from "./sections/section-1.js"
+import {section2Animation} from "./sections/section-2.js"
 
 
-const mainTL = gsap.timeline({pasued:true});
+// call section 1 animation function
+section1Animation();
+section2Animation();
 
-    mainTL.add(redBoxAnimation())
-        .add(blueBoxAnimation())
-        // .addLabel("black")
-        // .addPause()
-        .add(blackRectangleAnimation())
-        // .seek("black")
-        .play();
+
+
+
+
+
+
+
+
+
+// import {redBoxAnimation} from "./redBox.js"
+// import {blueBoxAnimation} from "./blueBox.js"
+// import {blackRectangleAnimation} from "./blackRectangle.js"
+
+
+// const mainTL = gsap.timeline({pasued:true});
+
+//     mainTL.add(redBoxAnimation())
+//         .add(blueBoxAnimation())
+//         // .addLabel("black")
+//         // .addPause()
+//         .add(blackRectangleAnimation())
+//         // .seek("black")
+//         .play();

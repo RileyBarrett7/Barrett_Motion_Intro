@@ -137,20 +137,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/demo.html",
-		"oF": 0
-		},
 	"/dev/content/section-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/section-1.html",
+		"oF": 0
+		},
+	"/dev/content/section-15.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-15.html",
 		"oF": 0
 		},
 	"/dev/content/section-2.kit": {
@@ -236,50 +236,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/blackRectangle.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/blackRectangle-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/blueBox.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/blueBox-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/redBox.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/redBox-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -288,6 +244,28 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-1.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-2-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -430,6 +408,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-15.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-15.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

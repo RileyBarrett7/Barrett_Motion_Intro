@@ -433,15 +433,22 @@ header {
 /* =============
     Section 1 
 ============= */
-#section-1 img {
-  width: 100%; }
+#section-1 {
+  overflow: hidden;
+  height: 600px; }
+  #section-1 > div {
+    background-image: url("../img/Section1/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%; }
 
-#section-1 #section-1-headline {
+#section-15 {
   display: grid;
-  text-align: center; }
-  #section-1 #section-1-headline h1 {
+  text-align: center;
+  padding-top: 20px; }
+  #section-15 h1 {
     font-weight: 700;
-    font-size: 4.375rem; }
+    font-size: 5rem; }
 
 /* =============
     Section 2 
