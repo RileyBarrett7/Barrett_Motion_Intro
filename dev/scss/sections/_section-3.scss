@@ -20,7 +20,14 @@
 
     #section-3-content{
     grid-area: section-3;
-
+    
+    h3 {
+        font-size: rem-calc(35);
+        font-weight: 600;
+    }
+    h4 {
+        font-weight: 400;
+    }
     hr{
         height: 3px;
         color: $tan;

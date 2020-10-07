@@ -41,11 +41,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section2/leftside.png": {
+	"/deploy/img/Section2/leftside.jpg": {
+		"ft": 16384,
+		"iS": 1337785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section2/leftside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section2/leftside_1.png": {
 		"ft": 32768,
 		"iS": 184373,
 		"oA": 0,
-		"oAP": "/deploy/img/Section2/leftside.png",
+		"oAP": "/deploy/img/Section2/leftside_1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -265,6 +276,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/sections/section-2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-3.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-3-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-4.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-4-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
