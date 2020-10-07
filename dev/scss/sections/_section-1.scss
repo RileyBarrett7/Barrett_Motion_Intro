@@ -1,0 +1,19 @@
+/* =============
+    Section 1 
+============= */
+#section-1{
+    img{
+        width: 100%;
+    }
+
+    #section-1-headline{
+        display: grid;
+    text-align: center;
+
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(70);
+    }
+
+    }
+}

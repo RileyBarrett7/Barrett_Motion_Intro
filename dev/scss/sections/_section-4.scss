@@ -1,0 +1,67 @@
+/* =============
+    Section 4 
+============= */
+#section-4{
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-4 .";
+    }
+
+    #section-4-content{
+        display: grid;
+        grid-area: section-4;
+        gap: 20px;
+        grid-template-rows: repeat(3, 380px);
+        background-size: cover;
+        background-position: center;
+
+        @include md{
+
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+            grid-template-areas: 
+            "g1 g1"
+            "g1 g1"
+            "g2 g3";
+        }
+        @include lg{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            grid-template-areas: 
+            "g1 g3"
+            "g1 g2";
+    }
+        
+        #g1{
+            @include md{
+                grid-area: g1;
+            }
+            @include lg{
+                grid-area: g1;
+            }
+        }
+        #g2{
+            @include md{
+                grid-area: g2;
+            }
+            @include lg{
+                grid-area: g2;
+            }
+        }
+
+        #g3{
+            @include md{
+                grid-area: g3;
+            }
+            @include lg{
+                grid-area: g3;
+            }
+        }
+
+    }
+}

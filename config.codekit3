@@ -19,6 +19,105 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/Footer/surfing-clipart-transparent-background-2.png": {
+		"ft": 32768,
+		"iS": 1365,
+		"oA": 0,
+		"oAP": "/deploy/img/Footer/surfing-clipart-transparent-background-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section1/hero.png": {
+		"ft": 32768,
+		"iS": 259309,
+		"oA": 0,
+		"oAP": "/deploy/img/Section1/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section2/leftside.png": {
+		"ft": 32768,
+		"iS": 184373,
+		"oA": 0,
+		"oAP": "/deploy/img/Section2/leftside.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section3/barrell.png": {
+		"ft": 32768,
+		"iS": 387632,
+		"oA": 0,
+		"oAP": "/deploy/img/Section3/barrell.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section4/board.png": {
+		"ft": 32768,
+		"iS": 60875,
+		"oA": 0,
+		"oAP": "/deploy/img/Section4/board.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section4/girl-2.png": {
+		"ft": 32768,
+		"iS": 57101,
+		"oA": 0,
+		"oAP": "/deploy/img/Section4/girl-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section4/sitting.png": {
+		"ft": 32768,
+		"iS": 133337,
+		"oA": 0,
+		"oAP": "/deploy/img/Section4/sitting.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section4/sitting_1.jpg": {
+		"ft": 16384,
+		"iS": 3502578,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section4/sitting_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section5/paz-arando-bz-DE-AF0lM-unsplash.png": {
+		"ft": 32768,
+		"iS": 32938,
+		"oA": 0,
+		"oAP": "/deploy/img/Section5/paz-arando-bz-DE-AF0lM-unsplash.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -42,8 +141,56 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/demo.html",
+		"oF": 0
+		},
+	"/dev/content/section-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-1.html",
+		"oF": 0
+		},
+	"/dev/content/section-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-2.html",
+		"oF": 0
+		},
+	"/dev/content/section-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-3.html",
+		"oF": 0
+		},
+	"/dev/content/section-4.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-4.html",
+		"oF": 0
+		},
+	"/dev/content/section-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-5.html",
+		"oF": 0
+		},
+	"/dev/global/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -52,6 +199,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
+	"/dev/global/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/header.html",
 		"oF": 0
 		},
 	"/dev/global/scripts.kit": {
@@ -266,7 +421,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -274,7 +429,59 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

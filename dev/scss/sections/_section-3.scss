@@ -1,0 +1,33 @@
+/* =============
+    Section 3 
+============= */
+#section-3{
+
+    aside{
+        img{
+            width: 100%;
+            }
+
+    }
+
+    #section-3-container{
+        display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". section-3 .";
+    text-align: center;
+
+    }
+
+    #section-3-content{
+    grid-area: section-3;
+
+    hr{
+        height: 3px;
+        color: $tan;
+        background-color: $tan;
+        border: none;
+    }
+
+    }
+
+}

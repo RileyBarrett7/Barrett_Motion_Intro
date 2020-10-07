@@ -1,0 +1,49 @@
+/* =============
+    Section 2 
+============= */
+#section-2 {
+	aside {
+		img {
+			width: 100%;
+		}
+	}
+	#section-2-intro {
+		display: grid;
+		grid-template-areas: ". section-2 .";
+		grid-template-columns: 15px auto 15px;
+		text-align: center;
+		#section-2-intro-content {
+			grid-area: section-2;
+			h3 {
+				font-size: rem-calc(35);
+				font-weight: 600;
+			}
+			h4 {
+				font-weight: 400;
+			}
+			hr {
+				background-color: $tan;
+				border: none;
+				color: $tan;
+				height: 3px;
+			}
+		}
+	}
+	@include md {
+		display: grid;
+		grid-template-areas: "img";
+		grid-template-columns: 38% auto;
+		margin-bottom: 50px;
+		margin-top: 20px;
+		aside {
+			grid-area: img;
+		}
+		#section-2-intro-content {
+			align-self: center;
+		}
+	}
+	@include lg {
+		display: grid;
+		grid-template-columns: 45% auto;
+	}
+}

@@ -1,0 +1,62 @@
+/* =============
+    Section 5 
+============= */
+#section-5{
+    aside{
+        img{
+            width: 100%;  
+          }
+    }
+
+    #section-5-container{
+        display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". section-3 .";
+    }
+
+    #section-5-content{
+        grid-area: section-5;
+
+        h4{
+            font-weight: 400;
+        }
+    }
+
+    @include md{
+
+        aside{
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        }
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: ". section-5 .";
+
+        #section-5-container{
+            grid-area: section-5;
+        }
+    }
+    @include lg{
+
+        aside{
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 45%;
+                
+            }
+        }
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: ". section-5 .";
+
+        #section-5-container{
+            grid-area: section-5;
+        }
+    }
+}

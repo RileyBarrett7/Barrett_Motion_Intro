@@ -1,3 +1,21 @@
 /* =============
     Footer
 ============= */
+#footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    background-color: $tan;
+
+    #footer-content{
+        grid-area: footer;
+    
+    }
+
+    #footer-2020{
+        display: flex;
+        align-items: flex-end;
+    
+    }
+}
