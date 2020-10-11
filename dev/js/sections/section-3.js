@@ -12,7 +12,7 @@ section2TL.from("#section-3 img",{duration: 2, alpha:0});
 export function section3Animation(){
     ScrollTrigger.create({
 
-        markers: true,
+        // markers: true,
         animation: section2TL,
         toggleActions: "play none none none",
         trigger: "#section-3",
