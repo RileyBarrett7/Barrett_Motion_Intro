@@ -383,3 +383,14 @@ textarea {
     padding-top: 350px; }
     #demo > div svg {
       width: 40%; }
+  #demo #counter {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px; }
+  #demo #percentage {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 54px; }
