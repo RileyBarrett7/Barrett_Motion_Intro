@@ -12,10 +12,15 @@
         grid-area: demo;
         display: flex;
         justify-content: center;
-        // border: 3px solid red;
+        align-items: center;
+        // border: 2px solid red;
+        padding-top: 350px;
+        // padding-bottom: 350px;
+        // width: 100%;
 
-        // svg{
-        //     border: 3px solid black;
-        // }
+        svg{
+            // border: 2px solid black;
+            width: 40%;
+        }
     }
 }

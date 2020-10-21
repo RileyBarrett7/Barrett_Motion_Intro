@@ -341,9 +341,6 @@ ul {
 /* =============
     Typography
 ============= */
-text {
-  font-family: 'Inter', sans-serif; }
-
 /* =============
     Buttons
 ============= */
@@ -381,4 +378,8 @@ textarea {
   #demo > div {
     grid-area: demo;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px; }
+    #demo > div svg {
+      width: 40%; }
