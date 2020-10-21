@@ -25,7 +25,8 @@ countIt();
 
 // LOADING BAR ANIMATION
 const saveButtonTL = gsap.timeline();
-saveButtonTL.from("#load-bar",{duration:5, x:-100});
+saveButtonTL.from("#load-bar",{duration:5, x:-100})
+            .from("#percentage",{duration:.05, x:100});
 
 
 

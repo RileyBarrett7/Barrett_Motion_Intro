@@ -50,18 +50,29 @@
     //     animation: var(--count, none) 5s ease forwards var(--all-delay, 4.6s);
     //     transition: opacity .2s ease .6s, transform .3s ease .6s;
     // }
+
+
+    // #save{
+    //     font-family: 'Inter', sans-serif;
+    //     color: $white;
+    //     font-weight: 500;
+    //     font-size: 20px;
+    // }
+
     #counter{
         font-family: 'Inter', sans-serif;
         color: $white;
         font-weight: 500;
         font-size: 20px;
+        padding-right: 15px;
+        display: hidden;
     }
     #percentage{
         font-family: 'Inter', sans-serif;
         color: $white;
         font-weight: 500;
         font-size: 20px;
-        padding-left: 54px;
+        padding-left: 42px;
     }
 
 }
