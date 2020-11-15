@@ -22,6 +22,15 @@ countIt();
 
 
 
+// // LOGO ANIMATION
+// const logoTL = gsap.timeline();
+// logoTL.from("#logo",{delay: 5,duration: 1,scale: 20});
+
+// export function logoAnimation(){
+//   return logoTL;
+// }
+
+
 
 // LOADING BAR ANIMATION
 const loadBarTL = gsap.timeline();
@@ -33,4 +42,5 @@ loadBarTL.from("#loadbar-left",{duration:2.5, x:-157, ease: "power2.out"})
 export function loadBarAnimation(){
     return loadBarTL;
 }
+
 

@@ -379,8 +379,7 @@ textarea {
     grid-area: demo;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 50px; }
+    align-items: center; }
     #demo > div svg {
       width: 100%; }
   #demo #loading-text {
