@@ -14,8 +14,7 @@
         justify-content: center;
         align-items: center;
         // border: 2px solid red;
-        // padding-top: 100px;
-        // padding-bottom: 350px;
+        padding-top: 50px;
         // width: 100%;
 
         svg{
@@ -25,23 +24,23 @@
     }
     
     #loading-text{
-        font-family: 'Inter', sans-serif;
+        font-family: 'AudiType-WideNormal', sans-serif;
         color: $white;
         font-weight: 500;
         font-size: 15px;
         padding-bottom: 250px;
     }
     #counter{
-        font-family: 'Inter', sans-serif;
+        font-family: 'AudiType-WideBold', sans-serif;
         color: $audi-red;
         font-weight: 500;
         font-size: 25px;
         padding-bottom: 120px;
-        padding-right: 20px;
+        padding-right: 33px;
         display: hidden;
     }
     #percentage{
-        font-family: 'Inter', sans-serif;
+        font-family: 'AudiType-WideBold', sans-serif;
         color: $audi-red;
         font-weight: 500;
         font-size: 25px;

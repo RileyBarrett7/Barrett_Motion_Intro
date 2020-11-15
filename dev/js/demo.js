@@ -25,8 +25,8 @@ countIt();
 
 // LOADING BAR ANIMATION
 const loadBarTL = gsap.timeline();
-loadBarTL.from("#loadbar-left",{duration:2.5, x:-157})
-          .from("#loadbar-right",{duration:2.5, x:-157});
+loadBarTL.from("#loadbar-left",{duration:2.5, x:-157, ease: "power2.out"})
+          .from("#loadbar-right",{duration:2.5, x:-157, ease: "power2.out"});
 
 
 
