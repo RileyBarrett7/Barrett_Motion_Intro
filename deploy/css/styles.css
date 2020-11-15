@@ -379,20 +379,27 @@ textarea {
     grid-area: demo;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 350px; }
+    align-items: center; }
     #demo > div svg {
-      width: 40%; }
-  #demo #counter {
+      width: 100%; }
+  #demo #loading-text {
     font-family: 'Inter', sans-serif;
     color: #fff;
     font-weight: 500;
-    font-size: 20px;
-    padding-right: 15px;
+    font-size: 15px;
+    padding-bottom: 250px; }
+  #demo #counter {
+    font-family: 'Inter', sans-serif;
+    color: #F50437;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 120px;
+    padding-right: 20px;
     display: hidden; }
   #demo #percentage {
     font-family: 'Inter', sans-serif;
-    color: #fff;
+    color: #F50437;
     font-weight: 500;
-    font-size: 20px;
-    padding-left: 42px; }
+    font-size: 25px;
+    padding-bottom: 120px;
+    padding-left: 55px; }

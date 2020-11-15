@@ -4,9 +4,9 @@
 
 import {gsap} from "gsap";
 
-import {saveButtonAnimation} from "./demo.js";
+import {loadBarAnimation} from "./demo.js";
 
 
 const mainTl = gsap.timeline();
 
-mainTl.add(saveButtonAnimation());
+mainTl.add(loadBarAnimation());

@@ -24,13 +24,13 @@ countIt();
 
 
 // LOADING BAR ANIMATION
-const saveButtonTL = gsap.timeline();
-saveButtonTL.from("#load-bar",{duration:5, x:-100})
-            .from("#percentage",{duration:.05, x:100});
+const loadBarTL = gsap.timeline();
+loadBarTL.from("#loadbar-left",{duration:2.5, x:-157})
+          .from("#loadbar-right",{duration:2.5, x:-157});
 
 
 
-export function saveButtonAnimation(){
-    return saveButtonTL;
+export function loadBarAnimation(){
+    return loadBarTL;
 }
 
