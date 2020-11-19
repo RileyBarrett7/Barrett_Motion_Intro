@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 var startCount = 0,
     endCount,
     activeIndex = 1,
-    tm = 5,
+    tm = 3,
     num = { var: startCount },
     numbers = document.getElementById("counter");
    
@@ -34,8 +34,8 @@ countIt();
 
 // LOADING BAR ANIMATION
 const loadBarTL = gsap.timeline();
-loadBarTL.from("#loadbar-left",{duration:5, x:157, ease: "power4.out"}, "sametime")
-          .from("#loadbar-right",{duration:5, x:-157, ease: "power4.out"}, "sametime");
+loadBarTL.from("#loadbar-left",{duration:3, x:157, ease: "power4.out"}, "sametime")
+          .from("#loadbar-right",{duration:3, x:-157, ease: "power4.out"}, "sametime");
 
 
 
