@@ -4,7 +4,7 @@
 
 #demo{
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 65% auto;
     grid-template-areas: ". demo .";
 
 
@@ -14,8 +14,12 @@
         justify-content: center;
         align-items: center;
         // padding-top: 50px;
+        position: relative;
 
         svg{
+            position: absolute;
+            top: 0;
+            bottom: 0;
             width: 100%;
         }
     }
@@ -25,24 +29,29 @@
         color: $white;
         font-weight: 500;
         font-size: 15px;
-        padding-bottom: 250px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-right: 80px;
     }
     #counter{
         font-family: 'AudiType-WideBold', sans-serif;
         color: $audi-red;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 17px;
         padding-bottom: 120px;
-        padding-right: 33px;
+        padding-top: 90px;
+        padding-right: 35px;
+        padding-left: 140px;
         display: hidden;
     }
     #percentage{
         font-family: 'AudiType-WideBold', sans-serif;
         color: $audi-red;
         font-weight: 500;
-        font-size: 25px;
-        padding-bottom: 120px;
-        padding-left: 55px;
+        font-size: 17px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-left: 160px;
     }
 
 }
