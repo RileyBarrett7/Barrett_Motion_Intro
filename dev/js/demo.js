@@ -36,16 +36,14 @@ countIt();
 const loadBarTL = gsap.timeline();
 loadBarTL.from("#RR",{duration:1, alpha:0, x:500}, "sametime6")
           .from("#EIGHT",{duration:1, alpha:0, x:500}, "sametime6")
-          .from("#red",{duration:1, x:-100, alpha:0}, "sametime6")
-          .from("#white",{duration:1, x:-100, alpha:0}, "sametime6")
-          .from("#yellow",{duration:1, x:-200, alpha:0}, "sametime6")
-          .from("#light-grey",{duration:1, x:-300, alpha:0}, "sametime6")
-          .from("#blue",{duration:1, x:-400, alpha:0}, "sametime6")
-          .from("#dark-grey",{duration:1, x:-500, alpha:0}, "sametime6")
+          .from("#red",{duration:1, x:-600}, "sametime6")
+          .from("#white",{duration:1, x:-800}, "sametime6")
+          .from("#yellow",{duration:1, x:-1000}, "sametime6")
+          .from("#light-grey",{duration:1, x:-1200}, "sametime6")
+          .from("#blue",{duration:1, x:-1400}, "sametime6")
+          .from("#dark-grey",{duration:1, x:-1600}, "sametime6")
           .from("#r8-logo",{duration:.5, alpha:1})
           .to("#r8-logo",{duration:.5, alpha:0}, "sametime7")
-
-
 
           .from("#logo",{duration:1, scale:350, x:-11000, y:-3800}, "sametime7")
           .from("#light-right-cp",{duration:1, alpha:0}, "sametime4")
