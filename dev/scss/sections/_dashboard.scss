@@ -1,5 +1,23 @@
 #dashboard{
+    display: grid;
+    grid-template-columns: auto 65% auto;
+    grid-template-areas: ". demo .";
 
+
+    >div{
+        grid-area: demo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        svg{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    }
 
 
 
