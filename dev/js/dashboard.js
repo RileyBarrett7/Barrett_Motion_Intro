@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 
 
 const dashBoardTL = gsap.timeline();
-dashBoardTL.from("#dashboard",{duration:5, alpha:0});
+dashBoardTL.from("#dashboard-full",{duration:3, alpha:0});
 
 
 

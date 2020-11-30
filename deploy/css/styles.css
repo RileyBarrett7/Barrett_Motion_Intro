@@ -412,3 +412,18 @@ textarea {
     padding-bottom: 50px;
     padding-top: 20px;
     padding-left: 160px; }
+
+#dashboard {
+  display: grid;
+  grid-template-columns: auto 65% auto;
+  grid-template-areas: ". demo ."; }
+  #dashboard > div {
+    grid-area: demo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    #dashboard > div svg {
+      position: absolute;
+      padding-top: 240px;
+      width: 100%; }
