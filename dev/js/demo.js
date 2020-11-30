@@ -54,12 +54,12 @@ loadBarTL.from("#RR",{duration:1, alpha:0, x:500}, "sametime6")
           .to("#percentage",{duration:.5, alpha:0}, "sametime3")
           .to("#loading-text",{duration:.5, alpha:0}, "sametime3")
 
-          .to("#light-right-cp",{duration:2, x:500, alpha:0}, "sametime3")
-          .to("#light-right",{duration:2, x:500, alpha:0}, "sametime3")
-          .to("#loadbar-right",{duration:2, x:500, alpha:0}, "sametime3")
-          .to("#light-left-cp",{duration:2, x:-500, alpha:0}, "sametime3")
-          .to("#light-left",{duration:2, x:-500, alpha:0}, "sametime3")
-          .to("#loadbar-left",{duration:2, x:-500, alpha:0}, "sametime3")
+          .to("#light-right-cp",{duration:.5, x:400, alpha:0}, "sametime3")
+          .to("#light-right",{duration:.5, x:300, alpha:0}, "sametime3")
+          .to("#loadbar-right",{duration:.5, x:300, alpha:0}, "sametime3")
+          .to("#light-left-cp",{duration:.5, x:-300, alpha:0}, "sametime3")
+          .to("#light-left",{duration:.5, x:-300, alpha:0}, "sametime3")
+          .to("#loadbar-left",{duration:.5, x:-300, alpha:0}, "sametime3")
       
           .to("#logo",{duration:3, scale:350, x:-11000, y:-3800}, "sametime5");
          
