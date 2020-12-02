@@ -31,7 +31,7 @@ loadBarTL.from("#RR",{duration:1, alpha:0, x:500}, "sametime6")
           .from("#light-grey",{duration:1, x:-1200}, "sametime6")
           .from("#blue",{duration:1, x:-1400}, "sametime6")
           .from("#dark-grey",{duration:1, x:-1600}, "sametime6")
-          .from("#r8-logo",{duration:.5, alpha:1})
+          .from("#r8-logo",{duration:1, alpha:1})
           .to("#r8-logo",{duration:.5, alpha:0}, "sametime7")
 
           .from("#logo",{duration:1, scale:350, x:-11000, y:-3800}, "sametime7")
