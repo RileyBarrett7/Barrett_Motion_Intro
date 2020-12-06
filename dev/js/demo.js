@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 var startCount = 0,
     endCount,
     activeIndex = 1,
-    tm = 2.8,
+    tm = 2.6,
     num = { var: startCount },
     numbers = document.getElementById("counter");
     
@@ -50,9 +50,9 @@ loadBarTL.from("#RR",{duration:1, alpha:0, x:500}, "sametime6")
           .from("#loadbar-left",{duration:3, x:157, ease: "power2.out"}, "sametime")
           .from("#loadbar-right",{duration:3, x:-157, ease: "power2.out"}, "sametime")
 
-          .to("#counter",{duration:.5, alpha:0}, "sametime3")
-          .to("#percentage",{duration:.5, alpha:0}, "sametime3")
-          .to("#loading-text",{duration:.5, alpha:0}, "sametime3")
+          .to("#counter",{duration:.3, alpha:0}, "sametime3")
+          .to("#percentage",{duration:.3, alpha:0}, "sametime3")
+          .to("#loading-text",{duration:.3, alpha:0}, "sametime3")
 
           .to("#light-right-cp",{duration:.5, x:400, alpha:0}, "sametime3")
           .to("#light-right",{duration:.5, x:300, alpha:0}, "sametime3")
@@ -61,7 +61,8 @@ loadBarTL.from("#RR",{duration:1, alpha:0, x:500}, "sametime6")
           .to("#light-left",{duration:.5, x:-300, alpha:0}, "sametime3")
           .to("#loadbar-left",{duration:.5, x:-300, alpha:0}, "sametime3")
       
-          .to("#logo",{duration:3, scale:350, x:-11000, y:-3800}, "sametime5");
+          // .to("#logo",{duration:3, scale:350, x:-11000, y:-3800}, "sametime5")
+          .to("#logo",{duration:.5, x:1.6, y:-363.5}, "sametime3");
          
 
 
