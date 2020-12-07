@@ -16,8 +16,8 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
 
 
             // BACK SPEEDOMETER DRAW IN
-            .from("#speed-back-stroke",{duration:.5, drawSVG:"15% 40%"})
-            .from("#rpm-back-stroke",{duration:.5, drawSVG:"80% 30%"})
+            .to("#speed-back-stroke",{duration:.5, drawSVG:"10% 90%"}, "sametime2")
+            .from("#rpm-back-stroke",{duration:.5, drawSVG:"80% 30%"}, "sametime2")
 
             // ROAD DRAWING IN
             .from("#line-left",{duration:.5, drawSVG:"0%"}, "sametime2")
@@ -49,7 +49,6 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#temp",{duration:.5, x:275})
             .to("#fan-side-icon",{duration:.5, x:-11})
 
-            .to("#road",{duration:.5, alpha:0})
 
             .to("#gas-full-icon",{duration:.5, x:11})
             .from("#gas",{duration:.5, x:275})
@@ -58,6 +57,11 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .to("#battery-full-icon",{duration:.5, x:11})
             .from("#car-icons",{duration:.5, x:275})
             .to("#battery-side-icon",{duration:.5, x:-8})
+            .from("#circle1",{duration:.5, x:48, y:15}, "sametime6")
+            .from("#circle2",{duration:.5, x:20, y:15}, "sametime6")
+            .from("#circle3",{duration:.5, x:-10, y:15}, "sametime6")
+            .from("#circle4",{duration:.5, x:-37, y:15}, "sametime6")
+            .from("#icon-elements",{duration:.5, alpha:0})
 
             .from("#rpm-red-stroke",{duration:2, drawSVG:"0%"})
             .from("#speed-red-stroke",{duration:2, drawSVG:"0%"});
