@@ -16,7 +16,7 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
 
 
             // BACK SPEEDOMETER DRAW IN
-            .to("#speed-back-stroke",{duration:.5, drawSVG:"10% 90%"}, "sametime2")
+            .from("#speed-back-stroke",{duration:.5, drawSVG:"0%"}, "sametime2")
             .from("#rpm-back-stroke",{duration:.5, drawSVG:"80% 30%"}, "sametime2")
 
             // ROAD DRAWING IN
@@ -38,6 +38,10 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
 
             .from("#side-icons",{duration:.3, x:1200}, "sametime4")
             .from("#music",{duration:.3, y:800}, "sametime4")
+
+            .from("#speed-red-stroke",{duration:2, drawSVG:"0%"})
+            // .to("#speed-red-stroke",{duration:2, drawSVG:"60%"})
+
 
             // ROAD DRAWING OUT
             .to("#line-left",{duration:.5, drawSVG:"0%"}, "sametime5")
@@ -63,8 +67,8 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#circle4",{duration:.5, x:-37, y:15}, "sametime6")
             .from("#icon-elements",{duration:.5, alpha:0})
 
-            .from("#rpm-red-stroke",{duration:2, drawSVG:"0%"})
-            .from("#speed-red-stroke",{duration:2, drawSVG:"0%"});
+            .from("#rpm-red-stroke",{duration:2, drawSVG:"0%"});
+            // .from("#speed-red-stroke",{duration:2, drawSVG:"0%"});
 
 
 export function dashBoardAnimation(){
