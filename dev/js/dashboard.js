@@ -5,6 +5,36 @@ gsap.registerPlugin(DrawSVGPlugin);
 
 
 
+
+// /*
+// Change the counter speed for how fast your want your number to go up. 1000 is equal to 1 second
+
+// 1000 = 1 second
+// 500 = 1/2 second
+// 250 = 1/4 second
+// */
+// var counterSpeed = 1000;
+
+// // Set this number you want your counter to count up to. Default is 20
+// var topSpeed = 86;
+
+// // If yu don't want your speed to start at 0, change it here. Default is 0.
+// var speedNumber = 0;
+
+// var myVar = setInterval(speedCounter, counterSpeed);
+
+// export function speedCounter() {
+// 	if (speedNumber < topSpeed) {
+// 		speedNumber++;
+// 		document.getElementById("speedTag").innerHTML = speedNumber;
+// 	} else {
+// 		clearInterval(myVar);
+// 	}
+// 	return speedNumber;
+// }
+
+
+
 const dashBoardTL = gsap.timeline();
 dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
 
@@ -40,6 +70,7 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             // SPEEDOMETER DRIVING
             .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")
             .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
+
             .from("#speed-red-stroke",{duration:4, drawSVG:"0%", ease: "power4.out"})
             // .to("#speed-red-stroke",{duration:2, drawSVG:"60%"})
 
