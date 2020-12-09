@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/album-cover.jpg": {
+		"ft": 16384,
+		"iS": 19750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/album-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

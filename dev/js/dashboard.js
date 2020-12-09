@@ -34,12 +34,13 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#speed-numbers",{duration:1, alpha:0, ease: "power4.out"}, "sametime4")
             .from("#rpm-numbers",{duration:1, alpha:0, ease: "power4.out"}, "sametime4")
             .from("#mph",{duration:1, alpha:0, ease: "power4.out"}, "sametime4")
-
-
             .from("#side-icons",{duration:.3, x:1200}, "sametime4")
             .from("#music",{duration:.3, y:800}, "sametime4")
 
-            .from("#speed-red-stroke",{duration:2, drawSVG:"0%"})
+            // SPEEDOMETER DRIVING
+            .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")
+            .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
+            .from("#speed-red-stroke",{duration:4, drawSVG:"0%", ease: "power4.out"})
             // .to("#speed-red-stroke",{duration:2, drawSVG:"60%"})
 
 
