@@ -20,9 +20,23 @@
         }
     }
 
-    // img{
-    //     width: 100%;
-    // }
+    img{
+        width: 5.9%;
+        position: absolute;
+        padding-top: 863px;
+        padding-right: 853px;
+    }
+    
+    #speed-counter{
+        font-family: 'AudiType-WideNormal', sans-serif;
+        color: $white;
+        font-weight: 500;
+        font-size: 90px;
+        padding-bottom: 300px;
+        padding-top: 45px;
+        padding-left: 530px;
+        position: absolute;
+    }
 
 
 
