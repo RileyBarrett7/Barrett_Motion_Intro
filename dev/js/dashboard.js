@@ -33,21 +33,21 @@ gsap.registerPlugin(DrawSVGPlugin);
 // 	return speedNumber;
 // }
 
-var startCount = 0,
-    endCount,
-    activeIndex = 1,
-    tm = 6,
-    num = { var: startCount },
-    numbers = document.getElementById("counter");
+var startCountSpeed = 0,
+    endCountSpeed,
+    activeIndexSpeed = 1,
+    tmSpeed = 3,
+    numSpeed = { var: startCountSpeed },
+    numbersSpeed = document.getElementById("speed-counter");
     
 
-function countIt() {
-activeIndex == 1 ? endCount = 98 : endCount = 98;
-gsap.to(num, tm, {var: endCount, onUpdate:changeNumber});
+function countItSpeed() {
+activeIndexSpeed == 1 ? endCountSpeed = 98 : endCountSpeed = 98;
+gsap.to(numSpeed , tmSpeed, {var: endCountSpeed, onUpdate:changeNumberSpeed });
 }
 
-function changeNumber() {
-  numbers.innerHTML = (num.var).toFixed();  
+function changeNumberSpeed() {
+  numbersSpeed .innerHTML = (numSpeed .var).toFixed();  
 }
 
 
@@ -85,7 +85,7 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#music",{duration:.3, y:800}, "sametime4")
             .from("#album-cover",{duration:.5, alpha:0, ease: "none"}, "sametime4")
 
-            .from("#speed-counter",{duration:1, alpha:0, onComplete: countIt}, "sametime4")
+            .from("#speedometer-counter",{duration:1, alpha:0, onComplete: countItSpeed}, "sametime4")
 
             // SPEEDOMETER DRIVING
             .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")

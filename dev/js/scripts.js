@@ -4,8 +4,8 @@ import { GSDevTools } from "gsap/GSDevTools";
 import {loadBarAnimation} from "./demo.js";
 import {dashBoardAnimation} from "./dashboard.js";
 
-// import {speedCounter} from "./dashboard.js";
-// console.log(speedCounter);
+// import {countItSpeed} from "./dashboard.js";
+// console.log(countItSpeed);
 
 
 gsap.registerPlugin(GSDevTools);
