@@ -92,7 +92,7 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
 
             // .from("#speed-red-stroke",{duration:4, drawSVG:"0%", ease: "power4.out"})
-            .fromTo("#speed-red-stroke",{drawSVG:"0%"}, {duration: 6, drawSVG:"40%", ease: "power2.out"}, "play13-1")
+            .fromTo("#speed-red-stroke",{drawSVG:"0%"}, {duration: 6, drawSVG:"40%", ease: "power2.out"})
             // .to("#speed-red-stroke",{duration:2, drawSVG:"60%"})
 
 
