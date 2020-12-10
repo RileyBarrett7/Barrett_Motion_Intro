@@ -33,22 +33,22 @@ gsap.registerPlugin(DrawSVGPlugin);
 // 	return speedNumber;
 // }
 
-var startCountSpeed = 0,
-    endCountSpeed,
-    activeIndexSpeed = 1,
-    tmSpeed = 3,
-    numSpeed = { var: startCountSpeed },
-    numbersSpeed = document.getElementById("speed-counter");
+// var startCountSpeed = 0,
+//     endCountSpeed,
+//     activeIndexSpeed = 1,
+//     tmSpeed = 3,
+//     numSpeed = { var: startCountSpeed },
+//     numbersSpeed = document.getElementById("speed-counter");
     
 
-function countItSpeed() {
-activeIndexSpeed == 1 ? endCountSpeed = 98 : endCountSpeed = 98;
-gsap.to(numSpeed , tmSpeed, {var: endCountSpeed, onUpdate:changeNumberSpeed });
-}
+// function countItSpeed() {
+// activeIndexSpeed == 1 ? endCountSpeed = 98 : endCountSpeed = 98;
+// gsap.to(numSpeed , tmSpeed, {var: endCountSpeed, onUpdate:changeNumberSpeed });
+// }
 
-function changeNumberSpeed() {
-  numbersSpeed .innerHTML = (numSpeed .var).toFixed();  
-}
+// function changeNumberSpeed() {
+//   numbersSpeed .innerHTML = (numSpeed .var).toFixed();  
+// }
 
 
 const dashBoardTL = gsap.timeline();
@@ -85,11 +85,12 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#music",{duration:.3, y:800}, "sametime4")
             .from("#album-cover",{duration:.5, alpha:0, ease: "none"}, "sametime4")
 
-            .from("#speedometer-counter",{duration:1, alpha:0, onComplete: countItSpeed}, "sametime4")
+            .from("#speedometer-counter",{duration:1, alpha:0}, "sametime4")
 
             // SPEEDOMETER DRIVING
             .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")
             .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
+            
 
             // .from("#speed-red-stroke",{duration:4, drawSVG:"0%", ease: "power4.out"})
             .fromTo("#speed-red-stroke",{drawSVG:"0%"}, {duration: 6, drawSVG:"40%", ease: "power2.out"})
