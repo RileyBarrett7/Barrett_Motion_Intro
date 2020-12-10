@@ -51,6 +51,29 @@ gsap.registerPlugin(DrawSVGPlugin);
 // }
 
 
+var counterSpeed = 1000;
+// Set this number you want your counter to count up to. Default is 20
+var topSpeed = 98;
+// If yu don't want your speed to start at 0, change it here. Default is 0.
+var speedNumber = 0;
+
+var myVar;
+
+function startTimer(){
+    myVar=setInterval(speedCounter,counterSpeed);
+}
+
+export function speedCounter() {
+if (speedNumber < topSpeed) {
+        speedNumber++;
+       ("#HC-counter").html(speedNumber);
+//document.getElementById("HC-counter").innerHTML = speedNumber;
+} else {
+clearInterval(myVar);
+}
+return speedNumber;
+}
+
 const dashBoardTL = gsap.timeline();
 dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
 
@@ -85,10 +108,10 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#music",{duration:.3, y:800}, "sametime4")
             .from("#album-cover",{duration:.5, alpha:0, ease: "none"}, "sametime4")
 
-            .from("#speedometer-counter",{duration:1, alpha:0}, "sametime4")
+            .from("#HC-counter",{duration:1, alpha:0}, "sametime4")
 
             // SPEEDOMETER DRIVING
-            .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")
+            .to("#D",{duration:.3, fill: "#F50437", onComplete: startTimer}, "sametime7")
             .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
             
 
