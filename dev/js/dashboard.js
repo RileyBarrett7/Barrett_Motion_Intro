@@ -51,27 +51,44 @@ gsap.registerPlugin(DrawSVGPlugin);
 // }
 
 
-var counterSpeed = 1000;
-// Set this number you want your counter to count up to. Default is 20
-var topSpeed = 98;
-// If yu don't want your speed to start at 0, change it here. Default is 0.
-var speedNumber = 0;
+// var counterSpeed = 1000;
+// // Set this number you want your counter to count up to. Default is 20
+// var topSpeed = 98;
+// // If yu don't want your speed to start at 0, change it here. Default is 0.
+// var speedNumber = 0;
 
-var myVar;
+// var myVar;
 
-function startTimer(){
-    myVar=setInterval(speedCounter,counterSpeed);
+// function startTimer(){
+//     myVar=setInterval(speedCounter,counterSpeed);
+// }
+
+// export function speedCounter() {
+// if (speedNumber < topSpeed) {
+//         speedNumber++;
+//        ("#HC-counter").html(speedNumber);
+// //document.getElementById("HC-counter").innerHTML = speedNumber;
+// } else {
+// clearInterval(myVar);
+// }
+// return speedNumber;
+// }
+
+var startCountTwo = 0,
+    endCountTwo,
+    activeIndexTwo = 1,
+    tmTwo = 6,
+    numTwo = { var: startCountTwo },
+    numbersTwo = document.getElementById("speedometer-counter");
+    
+
+function countItTwo() {
+activeIndexTwo == 1 ? endCountTwo = 98 : endCountTwo = 98;
+gsap.to(numTwo, tmTwo, {var: endCountTwo, onUpdate:changeNumberTwo, ease: "none"});
 }
 
-export function speedCounter() {
-if (speedNumber < topSpeed) {
-        speedNumber++;
-       ("#HC-counter").html(speedNumber);
-//document.getElementById("HC-counter").innerHTML = speedNumber;
-} else {
-clearInterval(myVar);
-}
-return speedNumber;
+function changeNumberTwo() {
+  numbersTwo.innerHTML = (numTwo.var).toFixed();  
 }
 
 const dashBoardTL = gsap.timeline();
@@ -108,15 +125,16 @@ dashBoardTL.from("#dashboard-full",{duration:.5, alpha:0}, "sametime3")
             .from("#music",{duration:.3, y:800}, "sametime4")
             .from("#album-cover",{duration:.5, alpha:0, ease: "none"}, "sametime4")
 
-            .from("#HC-counter",{duration:1, alpha:0}, "sametime4")
+            .from("#speedometer-counter",{duration:1, alpha:0}, "sametime4")
+            .to("#speedometer-counter",{duration:1, onComplete: countItTwo}, "sametime4")
 
             // SPEEDOMETER DRIVING
-            .to("#D",{duration:.3, fill: "#F50437", onComplete: startTimer}, "sametime7")
+            .to("#D",{duration:.3, fill: "#F50437"}, "sametime7")
             .to("#P",{duration:.3, fill: "#FFF"}, "sametime7")
             
 
             // .from("#speed-red-stroke",{duration:4, drawSVG:"0%", ease: "power4.out"})
-            .fromTo("#speed-red-stroke",{drawSVG:"0%"}, {duration: 6, drawSVG:"40%", ease: "power2.out"})
+            .fromTo("#speed-red-stroke",{drawSVG:"0%"}, {duration: 6, drawSVG:"40%", ease: "none"})
             // .to("#speed-red-stroke",{duration:2, drawSVG:"60%"})
 
 
